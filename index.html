@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent Page</title>
+    <style>
+        /* Reset some basic elements */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f8f8;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #13b6e7;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #f7f7f7;
+        }
+
+        header nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            gap: 20px;
+        }
+
+        .left {
+            flex: 1;
+        }
+
+        .placeholder-image {
+            width: 100%;
+            height: 200px;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+            border-radius: 8px;
+        }
+
+        .right {
+            flex: 1;
+        }
+
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .info-text p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        /* Form Section */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        form input, form select, form button {
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        form button:hover {
+            background-color: #555;
+        }
+
+        /* Feature List */
+        .features {
+            margin-top: 20px;
+        }
+
+        .features li {
+            margin-bottom: 10px;
+            padding-left: 10px;
+            list-style: none;
+        }
+
+        .features li::before {
+            content: "✔";
+            color: green;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <style>
+            /* Styling untuk logo dan nama */
+            .logo-name-container {
+                display: flex; /* Mengatur logo dan nama dalam satu baris */
+                align-items: center; /* Posisi vertikal tengah */
+                font-family: Arial, sans-serif;
+                font-size: 20px;
+            }
+    
+            .logo-name-container img {
+                width: 50px; /* Ukuran logo */
+                height: 50px; /* Menjaga logo tetap proporsional */
+                border-radius: 50%; /* Membuat logo bulat */
+                object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+                margin-right: 10px; /* Jarak antara logo dan nama */
+            }
+        </style>
+        <div class="logo-name-container">
+            <!-- Logo -->
+            <img src="https://cdn.dribbble.com/users/3800004/screenshots/6812876/travel_logo_4x.jpg" 
+            alt="Logo">
+            <!-- Nama -->
+            <span></span>
+        </div>
+        <nav>
+            <a href="a">Home</a>
+            <a href="a">Our Package</a>
+            <a href="a">Call Us</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <h1>Your Trusted Travel Agent's</h1>
+    <p style="text-align: center;">Your happiness is our happiness</p>
+
+    <div class="container">
+        <!-- Left Side -->
+        <div class="left">
+            <div class="placeholder-image">
+                <img src="https://traveltext.id/wp-content/uploads/2021/11/travel-agent-2.jpg" 
+                alt="Travel Image" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+            </div>
+            <p style="font-style: italic;">"Liburan jadi menyenangkan bersama Travel Agentku!"</p>
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Logo Bulat Dekat Nama</title>
+                <style>
+                    /* Styling untuk logo dan nama */
+                    .logo-name-container {
+                        display: flex; /* Mengatur logo dan nama dalam satu baris */
+                        align-items: center; /* Posisi vertikal tengah */
+                        font-family: Arial, sans-serif;
+                        font-size: 15px;
+                    }
+            
+                    .logo-name-container img {
+                        width: 60px; /* Ukuran logo */
+                        height: 50px; /* Menjaga logo tetap proporsional */
+                        border-radius: 50%; /* Membuat logo bulat */
+                        object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+                        margin-right: 10px; /* Jarak antara logo dan nama */
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="logo-name-container">
+                    <!-- Logo -->
+                    <img src="https://png.pngtree.com/png-clipart/20230927/original/pngtree-man-avatar-image-for-profile-png-image_13001882.png" 
+                    alt="Logo">
+                    <!-- Nama -->
+                        <p><strong>Maulana Travel</strong><br>Perusahaan Traveluxe</p>
+                </div>
+            </body>
+            </html>
+
+            <!-- Features -->
+            <div class="features">
+                <p>"Comfortable Holiday, Unforgettable Experience"</p>
+                <ul>
+                    <li>Family & Group Tour Packages</li>
+                    <li>Visa & Travel Insurance Services</li>
+                    <li>Affordable Flight Tickets & Hotels</li>
+                    <li>Best Price-Quality vacation without breaking the bank!!</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Right Side - Contact Form -->
+        <div class="right">
+            <h2>Contact Us</h2>
+            <p>Select your travel needs and we'll get in touch with you!</p>
+            <form>
+                <input type="text" placeholder="First and Last Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <select required>
+                    <option value="" disabled selected>What are you interested in?</option>
+                    <option value="pantai sanur">Pantai Sanur</option>
+                    <option value="pantai kuta">Pantai Kuta</option>
+                    <option value="pantai pandawa">Pantai Pandawa</option>
+                    <option value="kepulauan gili">Kepulauan Gili</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
